@@ -1,5 +1,6 @@
 import Home from "./pages/home";
-import PaginaFuncionarios from "./pages/listas/funcionarios";
+import Footer from "./pages/listas/footer";
+// import PaginaFuncionarios from "./pages/listas/funcionarios";
 import Navbar from "./pages/listas/navbar";
 
 export default function App() {
@@ -7,7 +8,8 @@ export default function App() {
     <div>
       <Navbar />
       <Home />
-      <PaginaFuncionarios />
+      {/* <PaginaFuncionarios /> */}
+      <Footer />
     </div>
   );
 }

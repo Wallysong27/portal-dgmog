@@ -3,10 +3,10 @@ import Logo from "../../assets/img/Logo.png";
 
 export default function Home() {
   return (
-    <div className="relative -top-20 h-screen">
+    <div className="relative">
       <img
         src={BackgroundHome}
-        className="object-cover filter brightness-50"
+        className="object-cover h-full filter brightness-50"
         alt=""
       />
       <div className="absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-20%]">

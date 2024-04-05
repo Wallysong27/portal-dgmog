@@ -1,4 +1,4 @@
-import Footer from "../model/Footer";
+import Footer from "../../model/Footer";
 import FooterItem from "./FooterItem";
 import { IoIosArrowUp } from "react-icons/io";
 

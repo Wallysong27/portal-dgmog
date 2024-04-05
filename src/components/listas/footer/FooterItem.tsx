@@ -1,4 +1,4 @@
-import Footer from "../model/Footer";
+import Footer from "../../model/Footer";
 
 interface FooterItemProps {
     footer: Footer

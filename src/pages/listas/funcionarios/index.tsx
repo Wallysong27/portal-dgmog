@@ -1,4 +1,4 @@
-import ListaFuncionarios from "../../../components/listas/ListaFuncionarios";
+import ListaFuncionarios from "../../../components/listas/funcionario/ListaFuncionarios";
 import funcionarios from "../../../components/constants/funcionarios";
 
 export default function PaginaFuncionarios() {

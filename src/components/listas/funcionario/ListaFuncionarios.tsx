@@ -1,4 +1,4 @@
-import Funcionario from "../model/Funcionario";
+import Funcionario from "../../model/Funcionario";
 import FuncionarioPessoa from "./FuncionarioPessoa";
 
 interface ListaFuncionariosProps {

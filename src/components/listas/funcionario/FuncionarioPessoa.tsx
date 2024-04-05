@@ -5,7 +5,7 @@ import {
   DialogBody,
   DialogFooter,
 } from "@material-tailwind/react";
-import Funcionario from "../model/Funcionario";
+import Funcionario from "../../model/Funcionario";
 import { useState } from "react";
 
 interface FuncionarioItemProps {

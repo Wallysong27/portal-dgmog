@@ -3,6 +3,8 @@ import BackgroundHome from "../../assets/img/background.png";
 import Logo from "../../assets/img/Logo.png";
 import NossosServicos from "../../components/ui/servicos";
 import Footer from "../../components/ui/footer";
+import Equipe from "../../components/ui/quemSomos/equipe";
+import QuemSomos from "../../components/ui/quemSomos";
 
 export default function Home() {
   return (
@@ -18,7 +20,9 @@ export default function Home() {
           <img src={Logo} alt="" className="w-full" />
         </div>
       </div>
+      <QuemSomos />
       <NossosServicos />
+      <Equipe />
       <Footer />
     </div>
   );

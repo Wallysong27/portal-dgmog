@@ -1,10 +1,9 @@
-import Home from "./pages/home";
+import Rotas from './router/router'
 
 export default function App() {
   return (
     <div>
-      
-      <Home />
+      <Rotas />
     </div>
   );
 }

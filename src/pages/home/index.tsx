@@ -5,6 +5,7 @@ import NossosServicos from "../../components/ui/servicos";
 import Footer from "../../components/ui/footer";
 import Equipe from "../../components/ui/quemSomos/equipe";
 import QuemSomos from "../../components/ui/quemSomos";
+import Impacto from "../../components/ui/impacto";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         </div>
       </div>
       <QuemSomos />
+      <Impacto />
       <NossosServicos />
       <Equipe />
       <Footer />
